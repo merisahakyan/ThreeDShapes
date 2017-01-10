@@ -29,7 +29,7 @@ namespace Testing
             Console.Write($"After apply method MoveByAxis, moving ellipsoid by X axis ");
             e.PrintPosition();
 
-            Console.ReadLine();
+            
 
 
 
