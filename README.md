@@ -20,7 +20,7 @@ namespace Testing
             float pi = (float)Math.PI;
 
             Ellipsoid e = new Ellipsoid();
-            Console.WriteLine($"Ellipsoid \n Volume is equal to {e.Volume()} \n Area is equal to {e.Area()} \n Coordinates are ({e.point.x};{e.point.y};{e.point.z}) \n");
+            Console.WriteLine($"Ellipsoid with sizes 1,1,1 \n Volume is equal to {e.Volume()} \n Area is equal to {e.Area()} \n Coordinates are ({e.point.x};{e.point.y};{e.point.z}) \n");
 
             e.MoveTo(2.3f, 4.3f, 1f);
             Console.Write($"After apply method MoveTo, ");
