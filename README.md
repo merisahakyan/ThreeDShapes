@@ -3,7 +3,7 @@ Class library **ThreeDimentionalShapes** contains abstract class **AbstractShape
 **ThreeDimentionalShapes** contains 2 structures: **Point** (_for determining x,y,z coordinates_) and **MoveDirections** (_for determining axis angles with x,y,z axises_ ) .</br>
 We have **IMuveable** interface , which provides shape's moving. It contains methods **MoveTo(),MoveBy(),MoveByAxis()**.</br>
 Classes **Ellipsoid** and **Cone** are inherited from **AbstractShape** abstract class and **IMuveable** interface.</br>
-For using this class library is necessary to add namespace ThreeDimentionalShapes  :  using ThreeDimentionalShapes</br>
+For using this class library is necessary to add namespace ThreeDimentionalShapes  :  using ThreeDimentionalShapes;</br>
 
 ###Here are trial code</br>
 
