@@ -70,5 +70,9 @@ namespace ThreeDimentionalShapes
             p.z = this.point.z + d * (float)Math.Cos(md.gamma);
             this.point = p;
         }
+        public void PrintPosition()
+        {
+            Console.WriteLine($"Coordinates are ({this.point.x};{this.point.y};{this.point.z}) \n");
+        }
     }
 }
