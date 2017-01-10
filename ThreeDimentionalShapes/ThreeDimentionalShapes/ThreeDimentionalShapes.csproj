@@ -41,6 +41,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AbstractShapes.cs" />
+    <Compile Include="Cone.cs" />
+    <Compile Include="Ellipsoid.cs" />
+    <Compile Include="IMoveable.cs" />
+    <Compile Include="MoveDirections.cs" />
     <Compile Include="Point.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
