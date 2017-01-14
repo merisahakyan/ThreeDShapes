@@ -9,6 +9,7 @@ public abstract class AbstractShapes
 }
 ```
 **ThreeDimentionalShapes** contains 2 structures: **Point** (_for determining x,y,z coordinates_) and **MoveDirections** (_for determining axis angles with x,y,z axises_ ) .</br>
+The struct **MoveDirections** allows you to determine any axis in distance with 3 arguments: alpha (angle of given and x axis), betta (for given and y axis) , gamma (for given and z axis).
 ```cs
 public struct Point
     {
@@ -37,6 +38,11 @@ public struct Point
     } 
 ```
 We have **IMuveable** interface , which provides shape's moving. It contains methods **MoveTo(),MoveBy(),MoveByAxis()**.</br>
+Method **MoveTo()** allows you to move the shape to given location.</br>
+Method **MoveBy()** allows you to move the shape by given difference coordinates dx,dy,dz.</br>
+Method **MoveByAxix()** allows you to move shape by any axis in distance with 2 arguments.Float d is the length of locomotion by given axis</br>
+
+
 ```cs
 public interface IMoveable
     {
