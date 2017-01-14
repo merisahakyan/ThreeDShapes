@@ -1,7 +1,51 @@
 ###Working with Three dimentional shapes. </br>
 Class library **ThreeDimentionalShapes** contains abstract class **AbstractShapes**, which has 3 abstract members: **property point** (_coordinates x,y,z_); **method Volume()** (_which calculates volume of shape_) and **method Area()** (_which calculates area of shape_). </br>
+```cs
+public abstract class AbstractShapes
+{
+    public abstract Point point { get; set; }
+    public abstract float Volume();
+    public abstract float Area();
+}
+```
 **ThreeDimentionalShapes** contains 2 structures: **Point** (_for determining x,y,z coordinates_) and **MoveDirections** (_for determining axis angles with x,y,z axises_ ) .</br>
+```cs
+public struct Point
+    {
+        public float x { get; set; }
+        public float y { get; set; }
+        public float z { get; set; }
+
+        public Point(float x,float y,float z)
+        {
+            this.x = x;
+            this.y = y;
+            this.z = z;
+        }
+    }
+  
+ public struct MoveDirections
+    { public float alpha { get; set; }
+       public  float betta { get; set; }
+       public  float gamma { get; set; }
+        public MoveDirections(float a,float b,float c)
+        {
+            alpha = a;
+            betta = b;
+            gamma=c;
+        }
+    } 
+```
 We have **IMuveable** interface , which provides shape's moving. It contains methods **MoveTo(),MoveBy(),MoveByAxis()**.</br>
+```cs
+public interface IMoveable
+    {
+        void MoveTo(float x, float y, float z);
+        void MoveTo(Point p);
+        void MoveBy(float dx, float dy, float dz);
+        void MoveByAxis(MoveDirections md, float d);
+    }
+```
 Classes **Ellipsoid** and **Cone** are inherited from **AbstractShape** abstract class and **IMuveable** interface.</br>
 For using this class library is necessary to add namespace ThreeDimentionalShapes  :  using ThreeDimentionalShapes;</br>
 
