@@ -39,9 +39,9 @@ public struct MoveDirections
 } 
 ```
 We have **IMuveable** interface , which provides shape's moving. It contains methods **MoveTo(),MoveBy(),MoveByAxis()**.</br>
-*Method **MoveTo()** allows you to move the shape to given location.</br>
-*Method **MoveBy()** allows you to move the shape by given difference coordinates dx,dy,dz.</br>
-*Method **MoveByAxix()** allows you to move shape by any axis in distance with 2 arguments.Float d is the length of locomotion by given axis</br>
+1. Method **MoveTo()** allows you to move the shape to given location.</br>
+2. Method **MoveBy()** allows you to move the shape by given difference coordinates dx,dy,dz.</br>
+3. Method **MoveByAxix()** allows you to move shape by any axis in distance with 2 arguments.Float d is the length of locomotion by given axis</br>
 
 
 ```cs
