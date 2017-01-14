@@ -93,15 +93,7 @@ namespace Testing
 
 
 ###The result is: </br>
-**Ellipsoid with sizes 1,1,1**</br>
- **Volume is equal to 4,18879**</br>
- **Area is equal to 12,56637**</br>
- **Coordinates are (0;0;0)**</br>
+![result](https://github.com/marysahakyan/ThreeDShapes/blob/master/shapes.png)
 
-**After apply method MoveTo, Coordinates are (2,3;4,3;1)**</br>
-
-**After apply method MoveBy,Coordinates are (0;0;0)**</br>
-
-**After apply method MoveByAxis, moving ellipsoid by X axis Coordinates are (3;0;0)**
 
 
