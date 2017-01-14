@@ -40,8 +40,8 @@ public struct MoveDirections
 ```
 We have **IMuveable** interface , which provides shape's moving. It contains methods **MoveTo(),MoveBy(),MoveByAxis()**.</br>
 * Method **MoveTo()** allows you to move the shape to given location.</br>
-Method **MoveBy()** allows you to move the shape by given difference coordinates dx,dy,dz.</br>
-Method **MoveByAxix()** allows you to move shape by any axis in distance with 2 arguments.Float d is the length of locomotion by given axis</br>
+* Method **MoveBy()** allows you to move the shape by given difference coordinates dx,dy,dz.</br>
+* Method **MoveByAxix()** allows you to move shape by any axis in distance with 2 arguments.Float d is the length of locomotion by given axis</br>
 
 
 ```cs
@@ -90,7 +90,7 @@ namespace Testing
     }
 }
 ```
-![Image of Yaktocat](https://d.docs.live.net/286d8977c779428f/%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BA%D0%B8%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0/github.png)
+
 
 ###The result is: </br>
 **Ellipsoid with sizes 1,1,1**</br>
